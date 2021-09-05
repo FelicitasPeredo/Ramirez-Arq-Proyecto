@@ -132,34 +132,10 @@ nav > ul > li li ul  {
     padding: 1rem;
 }
 
-.home-article h2 {
-    font-family: 'Lato', 'Roboto',sans-serif;
-    font-size: 2rem;
-    letter-spacing: 0.3125rem;
-    text-transform: uppercase;
-    color: white;
-    word-spacing: 0.4375rem;
-    font-weight: 300;
-    display: inline-block;
-    padding: 1rem;
-}
-
-.home-article p {
-    font-family: 'Lato', 'Roboto',sans-serif;
-    letter-spacing: 0.0625rem;
-    text-decoration: none;
-    color: white;
-    word-spacing: 0.1875rem;
-    font-size: 1.3rem;
-    font-weight: 300;
-    display: inline-block;
-    padding: 1rem;
-}
-
 /* FOOTER */
 
 .arq-ramirez-footer {
-    background-color: #BDBDBD;
+    background-color: #616161;
     display: block;
     padding: 1rem;
     display: flex;
@@ -678,6 +654,30 @@ div.casas-container div div a {
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
+    }
+
+    .home-article h2 {
+        font-family: 'Lato', 'Roboto',sans-serif;
+        font-size: 2rem;
+        letter-spacing: 0.3125rem;
+        text-transform: uppercase;
+        color: white;
+        word-spacing: 0.4375rem;
+        font-weight: 300;
+        display: inline-block;
+        padding: 1rem;
+    }
+    
+    .home-article p {
+        font-family: 'Lato', 'Roboto',sans-serif;
+        letter-spacing: 0.0625rem;
+        text-decoration: none;
+        color: white;
+        word-spacing: 0.1875rem;
+        font-size: 1.1rem;
+        font-weight: 300;
+        display: inline-block;
+        padding: 1.5rem;
     }
 
 
