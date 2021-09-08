@@ -23,6 +23,7 @@ body {
 .header-item-container {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap-reverse;
 }
 .marca-container {
     display: inline;
@@ -676,9 +677,9 @@ li > ul > li:hover > ul > li{
     height: 100%;
     transition: opacity .5s ease-in-out;
 }
-
 .casas-container {
-    margin: 0px;
+    margin: 0rem;
+    padding: 0rem;
 }
 
 div.casas-container div div a {
