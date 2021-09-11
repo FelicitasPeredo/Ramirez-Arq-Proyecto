@@ -15,7 +15,6 @@ body {
 .arq-ramirez-header
 {
     background-color: #616161;
-    padding: 1rem;
     display: block;
     display: flex;
     flex-direction: row;
@@ -29,9 +28,9 @@ body {
     display: inline;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
-    margin: 0rem 2rem 0rem 2rem;
+    flex-wrap: wrap;
 }
 .nav-container {
     display: inline;
@@ -39,7 +38,6 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 0rem 2rem 0rem 2rem;
 }
 
 #logo-r {
@@ -48,19 +46,33 @@ body {
     margin: 1rem;
 }
 
-.titulo-white-style {
+.titulo-white-header {
     font-family: 'Lato', 'Roboto',sans-serif;
-    font-size: 2rem;
-    letter-spacing: 0.3125rem;
+    font-size: 28px;
+    letter-spacing: 4px;
     text-transform: uppercase;
     color: white;
-    word-spacing: 0.4375rem;
+    word-spacing: 6px;
     font-weight: 300;
     display: inline-block;
-    padding: 0.5rem;
+}
+
+.titulo-white-style {
+    font-family: 'Lato', 'Roboto',sans-serif;
+    font-size: 28px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: white;
+    word-spacing: 6px;
+    font-weight: 300;
+    display: inline-block;
 }
 /* Arreglos al MENU en gnrl */
 /* HTML Nav Styles */
+
+.no-padding {
+    padding: 0px;
+}
 
 .to-the-back {
     z-index: -10;
@@ -77,7 +89,10 @@ nav li > ul {
     pointer-events:none;
 }
 nav > ul { 
-    display:flex; 
+    display:flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    padding-left: 2px;
 } 
 nav > ul > li {
     pointer-events: all;
@@ -101,8 +116,28 @@ nav > ul > li li ul {
  /* User Styles Below Not Required */
  /* User Styles Below Not Required */
 nav { 
-    margin-top: 2.5rem;
-    margin-left: 2.5rem;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.menu-menu-item-box {
+    font-family: 'Lato', 'Roboto',sans-serif;
+    letter-spacing: 0.0625rem;
+    word-spacing: 0.1875rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    background-color: #616161;
+    min-width: 8rem;
+    transition: background 0.5s, color 0.5s, transform 0.5s;
+    margin:0rem 0.2rem 0.2rem 0rem;
+    padding: 0.8rem 0rem 0.8rem 0.8rem;
+    box-sizing:border-box;
+    border-radius:0.1875rem;
+    box-shadow: 0rem 0.125rem 0.25rem rgba(0, 0, 0, 0.5);
+    position:relative;
+    z-index: 10;
 }
 .menu-item-box {
     font-family: 'Lato', 'Roboto',sans-serif;
@@ -113,10 +148,10 @@ nav {
     text-decoration: none;
     color: white;
     background-color: #616161;
-    min-width:11.8rem;
+    min-width:11.5rem;
     transition: background 0.5s, color 0.5s, transform 0.5s;
-    margin:0rem 0.375rem 0.375rem 0rem;
-    padding:1.25rem 2.5rem;
+    margin:0rem 0.2rem 0.2rem 0rem;
+    padding: 0.8rem 0rem 0.8rem 0.8rem;
     box-sizing:border-box;
     border-radius:0.1875rem;
     box-shadow: 0rem 0.125rem 0.25rem rgba(0, 0, 0, 0.5);
@@ -340,7 +375,6 @@ li > ul > li:hover > ul > li{
     position: absolute;
     opacity: 0;
     transition: opacity .5s ease-in-out;
-    /* padding: 16px 60px; */
 }
 
 .nosotros-texto-formato {
@@ -349,7 +383,7 @@ li > ul > li:hover > ul > li{
     text-decoration: none;
     color: white;
     word-spacing: 3px;
-    font-size: 21px;
+    font-size: 18px;
     font-weight: 300;
     padding: 16px;
 }
@@ -414,7 +448,7 @@ li > ul > li:hover > ul > li{
     text-decoration: none;
     color: white;
     word-spacing: 3px;
-    font-size: 21px;
+    font-size: 18px;
     font-weight: 300;
     padding: 16px;
 }
