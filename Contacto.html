@@ -76,7 +76,7 @@
         </div>
     </header>
     <!-- FORM -->
-    <section class="form-container container">
+    <section class="form-container d-flex justify-content-center flex-wrap container">
         <h2 class="titulos">En que podemos ayudarte?</h2>
         <form action="" class="formato-texto">
             <div class="form-nombre-apellido">
@@ -99,6 +99,7 @@
                     <label for="floatingTextarea">Envienos su mensaje</label>
                   </div>
             </div>
+            <button type="button" class="btn formato-boton btn-lg">Enviar Mensaje</button>
             <div class="formato-texto">
                 <p>
                     Envíenos sus consultas y pedidos llenando este formulario. 
@@ -107,35 +108,37 @@
             </div>
         </form>
     </section>
-    <section class="container-fluid fila-contacto-container">
+    <section class="container fila-contacto-container">
         <div class="row">
-            <article class="container col-lg-6 col-md-12 col-sm-12 col-xs-12">
+            <article class="col-12 col-sm-6">
                 <h2 class="titulos">Ubicacion</h2>
                 <!-- GOOGLE MAPS -->
-                <figure>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6581.784419484965
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6581.784419484965
                     !2d-58.598839!3d-34.429493!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc4b97337010d338
                     2!2sBarrio%20Cerrado%20Las%20Palmas!5e0!3m2!1ses!2sar!4v1626982842607!5m2!1ses!2sar" 
-                    width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy">
-                    </iframe>
-                </figure>
+                    class="w-100 h-75" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
             </article>
-            <article class="contacto-container container col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                <h2 class="titulos">Contacto</h2>
+            <article class="contacto-container col-12 col-sm-6 p-5">
+                <h2 class="titulo-contacto">Contacto</h2>
                 <!-- Numero de telefono -->
-                <p class="formato-texto">
+                <p class="texto-contacto">
                     +54 911 44004662
                 </p>
                 <!-- Email -->
-                <a href="mailto:eugenia.ramirez@fibertel.com.ar" class="formato-texto">eugenia.ramirez@fibertel.com.ar</a>
+                <a href="mailto:eugenia.ramirez@fibertel.com.ar" class="texto-contacto" >eugenia.ramirez@fibertel.com.ar</a>
                 <!-- Ubicacion -->
-                <p class="formato-texto">
+                <p class="texto-contacto">
                     Tigre – Pilar – Escobar
                 </p>
                 <!-- Links Redes Sociales -->
-                <a href="https://www.instagram.com/ramirez.arquitectura/" class="formato-texto">Instagram</a>
-                <a href="https://ar.linkedin.com/in/eugenia-ramirez-01483133" class="formato-texto">LinkedIn</a>
-                <a href="https://www.facebook.com/Ramirezarquitectura-1028882177162810/" class="formato-texto">Facebook</a>
+                <nav id="redes-sociales-links">
+                    <a href="https://www.instagram.com/ramirez.arquitectura/"><img src="https://i.ibb.co/cNQV9Bp/instagram-logo.png" alt="instagram logo" class="logo" id="instagram-logo"></a>
+                    <a href="https://ar.linkedin.com/in/eugenia-ramirez-01483133"><img src="https://i.ibb.co/vP7mXDS/linkedin-logo.png" alt="linkedin logo" class="logo" id="linkedin-logo"></a>
+                    <a href="https://www.facebook.com/Ramirezarquitectura-1028882177162810/"><img src="https://i.ibb.co/DWqdrBb/facebook-logo.png" alt="facebook logo" class="logo" id="facebook-logo"></a>
+                    <a href="https://www.behance.net/ramirezarquitectura"><img src="https://i.ibb.co/Vq1Gr7J/behance-logo.png" alt="behance logo" class="logo" id="behance-logo"></a>
+                    <a href="https://ar.pinterest.com/RamirezArquitectura/"><img src="https://i.ibb.co/c1BDwSZ/pinterest-logo.png" alt="pinterest logo" class="logo" id="pinterest-logo"></a>
+                </nav>
             </article>
         </div>
     </section>

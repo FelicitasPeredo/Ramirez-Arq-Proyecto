@@ -238,7 +238,7 @@ li > ul > li:hover > ul > li{
     text-decoration: none;
     color: #3E3636;
     word-spacing: 0.1875rem;
-    /* font-size: 1.3rem; */
+    font-size: 1rem;
     font-weight: 300;
     display: inline-block;
     padding: 1rem;
@@ -325,10 +325,41 @@ li > ul > li:hover > ul > li{
 
 /* CONTACTO */
 
+.form-container h2 {
+    margin-left: 15px;
+    padding: 16px 16px 0px 16px;
+}
 .contacto-container {
     display: flex;
     flex-direction: column;
 }
+
+.titulo-contacto {
+    font-family: 'Lato', 'Roboto',sans-serif;
+    font-size: 26px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #3E3636;
+    word-spacing: 6px;
+    font-weight: 300;
+    display: inline-block;
+    padding: 16px;
+}
+
+.texto-contacto {
+    text-decoration: none;
+    text-transform: none;
+    font-family: 'Lato', 'Roboto',sans-serif;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #3E3636;
+    font-size: 16px;
+    font-weight: 300;
+    display: inline-block;
+    padding: 16px;
+    margin: 0px;
+}
+
 
 .form-nombre-apellido {
     margin: 15px;
@@ -336,6 +367,16 @@ li > ul > li:hover > ul > li{
 
 .form-mail-mensaje {
     margin: 15px;
+}
+
+.formato-boton {
+    background-color: #3E3636;
+    font-family: 'Lato', 'Roboto',sans-serif;
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    font-size: 16px;
+    margin-left: 15px;
 }
 
 /* IMAGENES */
