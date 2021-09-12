@@ -249,7 +249,7 @@ li > ul > li:hover > ul > li{
 .arq-ramirez-footer {
     background-color: #616161;
     display: block;
-    padding: 1rem;
+    padding: 0.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -265,14 +265,14 @@ li > ul > li:hover > ul > li{
     font-size: 1.3rem;
     font-weight: 300;
     display: inline-block;
-    padding: 1rem;
-    margin: 1rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
 }
 
 #redes-sociales-links {
     display: inline-block;
-    padding: 1rem;
-    margin: 1rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
 }
 /* logos del footer */
 
@@ -604,26 +604,25 @@ li > ul > li:hover > ul > li{
 
     .home-article h2 {
         font-family: 'Lato', 'Roboto',sans-serif;
-        font-size: 2rem;
-        letter-spacing: 0.3125rem;
+        font-size: 26px;
+        letter-spacing: 4px;
         text-transform: uppercase;
         color: white;
-        word-spacing: 0.4375rem;
+        word-spacing: 6px;
         font-weight: 300;
         display: inline-block;
-        padding: 1rem;
+        padding: 16px;
     }
     
     .home-article p {
         font-family: 'Lato', 'Roboto',sans-serif;
-        letter-spacing: 0.0625rem;
+        letter-spacing: 1px;
         text-decoration: none;
         color: white;
-        word-spacing: 0.1875rem;
-        font-size: 1.1rem;
+        font-size: 16px;
         font-weight: 300;
         display: inline-block;
-        padding: 1.5rem;
+        padding: 24px;
     }
 
 
