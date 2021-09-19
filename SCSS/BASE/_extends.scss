@@ -1,0 +1,13 @@
+%flex-row {
+    display: flex;
+    flex-direction: row;
+}
+%flex-column {
+    display: flex;
+    flex-direction: column;
+}
+%position-absolute-transition {
+    position: absolute;
+    opacity: 0;
+    transition: opacity .5s ease-in-out;
+}

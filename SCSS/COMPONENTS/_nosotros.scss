@@ -1,0 +1,16 @@
+@import '../BASE/mixins';
+@import '../BASE/variables';
+@import '../BASE/extends';
+
+.nosotros-grid-item {
+    @include boxmodel(0px, 0px)
+}
+#nosotros-grid-item-titulo {
+    @include flex(flex, row, flex-end, center, nowrap)
+}
+.nosotros-grid-item-texto {
+    @include flex(flex, row, flex-end, center, nowrap)
+}
+.nosotros-texto {
+    @extend %position-absolute-transition
+}

@@ -1,0 +1,16 @@
+@import '../BASE/mixins'; 
+@import '../BASE/variables';
+@import '../BASE/extends';
+
+.arq-ramirez-footer {
+    background-color: $light-grey;
+    @include boxmodel(0.5rem, 0rem);
+    @include flex(flex, row, center, center, nowrap)
+}
+#redes-sociales-links {
+    display: inline-block;
+    @include boxmodel(0.5rem, 0.5rem);
+}
+.logo {
+    @include boxmodel(0.2rem, 0.2rem);
+}

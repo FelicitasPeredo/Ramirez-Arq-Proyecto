@@ -1,0 +1,667 @@
+@charset "UTF-8";
+.header-item-contanier, .arq-ramirez-header {
+  display: flex;
+  flex-direction: row;
+}
+
+.contacto-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.casas-titulos, .deco-titulo, .otros-proy-titulos, .nosotros-texto {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.arq-ramirez-header {
+  background-color: #616161;
+}
+
+.header-item-contanier {
+  flex-wrap: wrap-reverse;
+}
+
+.marca-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav-contanier {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#logo-r {
+  width: 4.3rem;
+  height: 5.5rem;
+  margin: 1rem;
+}
+
+.arq-ramirez-header, .header-item-contanier {
+  display: flex;
+  flex-direction: row;
+}
+
+.contacto-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.casas-titulos, .deco-titulo, .otros-proy-titulos, .nosotros-texto {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.arq-ramirez-footer {
+  background-color: #BDBDBD;
+  padding: 0.5rem;
+  margin: 0rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+#redes-sociales-links {
+  display: inline-block;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+.logo {
+  padding: 0.2rem;
+  margin: 0.2rem;
+}
+
+html {
+  font-size: 100%;
+  overflow-x: hidden;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: "Lato", "Roboto", sans-serif;
+  overflow-x: hidden;
+}
+
+/*H1 All Pages*/
+.titulo-white-style {
+  display: inline-block;
+  font-size: 28px;
+  color: white;
+  font-weight: 300;
+  letter-spacing: 4px;
+  word-spacing: 6px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.titulos {
+  padding: 1rem;
+  margin: 0rem;
+  font-size: 1.5rem;
+  color: #3E3636;
+  font-weight: 300;
+  letter-spacing: 0.258rem;
+  word-spacing: 0.358rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.formato-texto {
+  padding: 1rem;
+  margin: 0rem;
+  font-size: 1rem;
+  color: #3E3636;
+  font-weight: 300;
+  letter-spacing: 0.0625rem;
+  word-spacing: 0.1875rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+#copyright {
+  display: inline-block;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  font-size: 1rem;
+  color: white;
+  font-weight: 300;
+  letter-spacing: 0.0625rem;
+  word-spacing: 0.1875rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+.nosotros-texto-formato, .deco-texto, .home-texto {
+  padding: 16px;
+  margin: 0px;
+  font-size: 18px;
+  color: white;
+  font-weight: 300;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  text-transform: none;
+  text-decoration: none;
+}
+
+.no-padding {
+  padding: 0px !important;
+}
+
+.to-the-back {
+  z-index: -10;
+}
+
+nav li {
+  position: relative;
+  display: block;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 10;
+}
+
+nav li > ul {
+  position: absolute;
+  pointer-events: none;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+  padding-left: 2px;
+}
+
+nav > ul > li {
+  pointer-events: all;
+  opacity: 1;
+}
+
+ul li a {
+  white-space: nowrap;
+  display: block;
+}
+
+li:hover > ul {
+  pointer-events: initial;
+}
+
+li:hover > ul > li, ul:hover > li {
+  opacity: 1;
+}
+
+nav > ul > li li ul {
+  transform: translateX(100%);
+  top: 0;
+  right: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-menu-item-box {
+  font-family: "Lato", "Roboto", sans-serif;
+  letter-spacing: 0.0625rem;
+  word-spacing: 0.1875rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  background-color: #616161;
+  min-width: 8rem;
+  transition: background 0.5s, color 0.5s, transform 0.5s;
+  margin: 0rem 0.2rem 0.2rem 0rem;
+  padding: 0.8rem 0rem 0.8rem 0.8rem;
+  box-sizing: border-box;
+  border-radius: 0.1875rem;
+  box-shadow: 0rem 0.125rem 0.25rem rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 10;
+}
+
+.menu-item-box {
+  font-family: "Lato", "Roboto", sans-serif;
+  letter-spacing: 0.0625rem;
+  word-spacing: 0.1875rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  background-color: #616161;
+  min-width: 11.5rem;
+  transition: background 0.5s, color 0.5s, transform 0.5s;
+  margin: 0rem 0.2rem 0.2rem 0rem;
+  padding: 0.8rem 0rem 0.8rem 0.8rem;
+  box-sizing: border-box;
+  border-radius: 0.1875rem;
+  box-shadow: 0rem 0.125rem 0.25rem rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 10;
+}
+
+.menu-item-box:hover {
+  color: white;
+}
+
+.menu-menu-item-box:hover {
+  color: white;
+}
+
+.menu-item-box:hover:before {
+  content: "";
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 100%;
+}
+
+nav > ul > li > a + ul:after {
+  content: "";
+  position: absolute;
+  border: 0.625rem solid transparent;
+  border-top: 0.625rem solid white;
+  left: 0.75rem;
+  top: -2.5rem;
+}
+
+nav li > ul > li > a + ul:after {
+  content: "";
+  position: absolute;
+  border: 0.625rem solid transparent;
+  border-left: 0.625rem solid white;
+  top: 1.25rem;
+  left: -11.25rem;
+  transition: opacity 0.6, transform 0s;
+}
+
+nav > ul > li > ul > li {
+  transition: transform 0.6s, opacity 0.6s;
+  transform: translateY(150%);
+  opacity: 0;
+}
+
+nav > ul > li:hover > ul > li, nav > ul > li.hover > ul > li {
+  transform: translateY(0%);
+  opacity: 1;
+}
+
+li > ul > li > ul > li {
+  transition: transform 0.6s, opacity 0.6s;
+  transform: translateX(120.1875rem­­) translateY(0%);
+  opacity: 0;
+}
+
+li > ul > li:hover > ul > li,
+li > ul > li:hover > ul > li {
+  transform: translateX(0%) translateY(0%);
+  opacity: 1;
+}
+
+#instagram-logo {
+  transition: all 0.6s;
+}
+
+#instagram-logo:hover {
+  transform: scale(1.2);
+}
+
+#linkedin-logo {
+  transition: all 0.6s;
+}
+
+#linkedin-logo:hover {
+  transform: scale(1.2);
+}
+
+#facebook-logo {
+  transition: all 0.6s;
+}
+
+#facebook-logo:hover {
+  transform: scale(1.2);
+}
+
+#behance-logo {
+  transition: all 0.6s;
+}
+
+#behance-logo:hover {
+  transform: scale(1.2);
+}
+
+#pinterest-logo {
+  transition: all 0.6s;
+}
+
+#pinterest-logo:hover {
+  transform: scale(1.2);
+}
+
+.img-nosotros-efect, .img-decostudio-efect, .img-otros-proy, .img-casas {
+  transition: opacity 0.5s ease-in-out;
+}
+
+.nosotros-grid-item:hover .img-nosotros-efect, .deco-grid-item:hover .img-decostudio-efect, .otros-proy-grid-item:hover .img-otros-proy, .casas-grid-item:hover .img-casas {
+  opacity: 0.2;
+}
+
+.casas-grid-item:hover .casas-titulos, .nosotros-grid-item:hover .nosotros-texto, .deco-grid-item:hover .deco-titulo, .otros-proy-grid-item:hover .otros-proy-titulos {
+  opacity: 1;
+}
+
+.arq-ramirez-header, .header-item-contanier {
+  display: flex;
+  flex-direction: row;
+}
+
+.contacto-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.casas-titulos, .deco-titulo, .otros-proy-titulos, .nosotros-texto {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.img-carousel {
+  width: 100%;
+  height: 30%;
+}
+
+.fondo, .img-nosotros, .img-decostudio, .img-otros-proy, .img-carousel-size, .img-casas {
+  width: 100%;
+  height: 100%;
+}
+
+.img-fondo {
+  background-color: #616161;
+}
+
+.arq-ramirez-header, .header-item-contanier {
+  display: flex;
+  flex-direction: row;
+}
+
+.contacto-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.casas-titulos, .deco-titulo, .otros-proy-titulos, .nosotros-texto {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.form-container h2 {
+  margin-left: 15px;
+  padding: 16px 16px 0px 16px;
+}
+
+.fila-contacto-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+
+.form-nombre-apellido, .form-mail-mensaje {
+  padding: 0px;
+  margin: 15px;
+}
+
+.formato-boton {
+  background-color: #616161;
+  margin-left: 15px;
+  font-size: 1rem;
+  color: white;
+  font-weight: 300;
+  letter-spacing: 0.0625rem;
+  word-spacing: 0.1875rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+.arq-ramirez-header, .header-item-contanier {
+  display: flex;
+  flex-direction: row;
+}
+
+.contacto-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.casas-titulos, .deco-titulo, .otros-proy-titulos, .nosotros-texto {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.nosotros-grid-item {
+  padding: 0px;
+  margin: 0px;
+}
+
+#nosotros-grid-item-titulo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.nosotros-grid-item-texto {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.arq-ramirez-header, .header-item-contanier {
+  display: flex;
+  flex-direction: row;
+}
+
+.contacto-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.casas-titulos, .deco-titulo, .otros-proy-titulos, .nosotros-texto {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.otros-proy-titulos-carouseles {
+  display: block;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.otros-proy-container {
+  padding: 0px;
+  margin: 0px;
+}
+
+.otros-proy-container div div a {
+  background-color: #616161;
+}
+
+.otros-proy-grid-item {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.arq-ramirez-header, .header-item-contanier {
+  display: flex;
+  flex-direction: row;
+}
+
+.contacto-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.casas-titulos, .deco-titulo, .nosotros-texto, .otros-proy-titulos {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.deco-container {
+  padding: 0px;
+  margin: 0px;
+}
+
+.deco-grid-item {
+  padding: 0px;
+  margin: 0px;
+}
+
+#deco-grid-item-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.deco-grid-item-texto {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.arq-ramirez-header, .header-item-contanier {
+  display: flex;
+  flex-direction: row;
+}
+
+.contacto-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.casas-titulos, .nosotros-texto, .otros-proy-titulos, .deco-titulo {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+#casas-grid-item-1 {
+  background-color: #616161;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.casas-container {
+  padding: 0rem;
+  margin: 0rem;
+}
+
+.bg-img-casas {
+  background-color: #616161;
+}
+
+.casas-grid-item {
+  padding: 0rem;
+  margin: 0rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.arq-ramirez-header, .header-item-contanier {
+  display: flex;
+  flex-direction: row;
+}
+
+.contacto-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.nosotros-texto, .otros-proy-titulos, .deco-titulo, .casas-titulos {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+#home-container {
+  background-image: url("https://i.ibb.co/0CHn3YK/20201105-113132.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+}
+
+.home-article {
+  background-color: #616161;
+  padding: 2rem;
+  margin: 0rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.arq-ramirez-header, .header-item-contanier {
+  display: flex;
+  flex-direction: row;
+}
+
+.contacto-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.nosotros-texto, .otros-proy-titulos, .deco-titulo, .casas-titulos {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+/*# sourceMappingURL=style.css.map */

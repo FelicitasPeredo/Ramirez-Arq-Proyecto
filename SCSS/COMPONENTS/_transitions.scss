@@ -1,0 +1,39 @@
+#instagram-logo {
+    transition: all 0.6s;
+}
+#instagram-logo:hover {
+    transform: scale(1.2);
+}
+#linkedin-logo {
+    transition: all 0.6s;
+}
+#linkedin-logo:hover {
+    transform: scale(1.2);
+}
+#facebook-logo {
+    transition: all 0.6s;
+}
+#facebook-logo:hover {
+    transform: scale(1.2);
+}
+#behance-logo {
+    transition: all 0.6s;
+}
+#behance-logo:hover {
+    transform: scale(1.2);
+}
+#pinterest-logo {
+    transition: all 0.6s;
+}
+#pinterest-logo:hover {
+    transform: scale(1.2);
+}
+.img-nosotros-efect, .img-decostudio-efect, .img-otros-proy, .img-casas {
+    transition: opacity .5s ease-in-out;
+}
+.nosotros-grid-item:hover .img-nosotros-efect, .deco-grid-item:hover .img-decostudio-efect, .otros-proy-grid-item:hover .img-otros-proy, .casas-grid-item:hover .img-casas {
+    opacity: 0.2;
+}
+.casas-grid-item:hover .casas-titulos, .nosotros-grid-item:hover .nosotros-texto, .deco-grid-item:hover .deco-titulo, .otros-proy-grid-item:hover .otros-proy-titulos {
+    opacity: 1;
+}

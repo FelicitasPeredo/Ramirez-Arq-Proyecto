@@ -1,0 +1,21 @@
+@import '../BASE/mixins';
+@import '../BASE/variables';
+@import '../BASE/extends';
+
+#casas-grid-item-1 {
+    background-color: $dark-grey;
+    @include flex(flex, row, flex-end, center, nowrap)
+}
+.casas-container {
+    @include boxmodel(0rem, 0rem)
+}
+.bg-img-casas {
+    background-color: $dark-grey
+}
+.casas-grid-item {
+    @include boxmodel(0rem, 0rem);
+    @include flex(flex, row, flex-end, center, nowrap)
+}
+.casas-titulos {
+    @extend %position-absolute-transition
+}

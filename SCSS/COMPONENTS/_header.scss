@@ -1,0 +1,26 @@
+@import '../BASE/mixins'; 
+@import '../BASE/variables';
+@import '../BASE/extends';
+
+.arq-ramirez-header {
+    background-color: $dark-grey;
+    @extend %flex-row
+}
+.header-item-contanier {
+    flex-wrap: wrap-reverse;
+    @extend %flex-row
+}
+.marca-container {
+    @include flex(flex, row, center, center, wrap)
+}
+.nav-contanier {
+    @include flex(flex, row, center, center, wrap)
+}
+#logo-r {
+    width: 4.3rem;
+    height: 5.5rem;
+    margin: 1rem;
+}
+
+
+

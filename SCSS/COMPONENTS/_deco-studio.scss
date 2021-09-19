@@ -1,0 +1,20 @@
+@import '../BASE/mixins';
+@import '../BASE/variables';
+@import '../BASE/extends';
+
+.deco-container {
+    @include boxmodel(0px, 0px)
+}
+.deco-grid-item {
+    @include boxmodel(0px, 0px)
+}
+#deco-grid-item-1 {
+    @include flex(flex, row, flex-end, center, nowrap)
+}
+.deco-grid-item-texto {
+    @include flex(flex, row, center, center, nowrap)
+}
+.deco-titulo {
+    @extend %position-absolute-transition
+}
+

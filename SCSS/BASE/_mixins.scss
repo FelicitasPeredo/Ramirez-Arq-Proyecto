@@ -1,0 +1,20 @@
+@mixin flex($display, $flex-direction, $justify-content, $align-items, $flex-wrap) {
+    display: $display;
+    flex-direction: $flex-direction;
+    justify-content: $justify-content;
+    align-items: $align-items;
+    flex-wrap: $flex-wrap;
+}
+@mixin font($font-size, $color, $font-weight, $letter-spacing, $word-spacing, $text-transform, $text-decoration) {
+    font-size: $font-size;
+    color: $color;
+    font-weight: $font-weight;
+    letter-spacing: $letter-spacing;
+    word-spacing: $word-spacing;
+    text-transform: $text-transform;
+    text-decoration: $text-decoration;
+}
+@mixin boxmodel($padding, $margin) {
+    padding: $padding;
+    margin: $margin;
+}

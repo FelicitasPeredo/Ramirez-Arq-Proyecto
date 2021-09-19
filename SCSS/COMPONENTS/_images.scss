@@ -1,0 +1,15 @@
+@import '../BASE/mixins';
+@import '../BASE/variables';
+@import '../BASE/extends';
+
+.img-carousel {
+    width: 100%;
+    height: 30%;
+}
+.fondo, .img-nosotros, .img-decostudio, .img-otros-proy, .img-carousel-size, .img-casas {
+    width: 100%;
+    height: 100%;
+}
+.img-fondo {
+    background-color:$dark-grey;
+}

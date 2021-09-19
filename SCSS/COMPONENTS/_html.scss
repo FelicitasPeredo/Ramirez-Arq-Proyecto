@@ -1,0 +1,16 @@
+@import '../BASE/variables';
+
+html {
+    font-size: $general-font-size;
+    overflow-x: hidden;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: $global-font;
+    overflow-x: hidden;
+}

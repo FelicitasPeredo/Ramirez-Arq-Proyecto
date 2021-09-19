@@ -1,0 +1,22 @@
+@import '../BASE/mixins';
+@import '../BASE/variables';
+@import '../BASE/extends';
+
+.form-container h2 {
+    margin-left: 15px;
+    padding: 16px 16px 0px 16px;
+}
+.contacto-container {
+    @extend %flex-column
+}
+.fila-contacto-container {
+    @include flex(flex, row, center, flex-start, nowrap)
+}
+.form-nombre-apellido, .form-mail-mensaje {
+    @include boxmodel(0px, 15px)
+}
+.formato-boton {
+    background-color: $dark-grey;
+    margin-left: 15px;
+    @include font(1rem, $white, 300, 0.0625rem, 0.1875rem, none, none)
+}
