@@ -83,6 +83,22 @@
   margin: 0.2rem;
 }
 
+.arq-ramirez-header, .header-item-contanier {
+  display: flex;
+  flex-direction: row;
+}
+
+.contacto-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.casas-titulos, .deco-titulo, .otros-proy-titulos, .nosotros-texto {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
 html {
   font-size: 100%;
   overflow-x: hidden;
@@ -96,6 +112,22 @@ html {
 body {
   font-family: "Lato", "Roboto", sans-serif;
   overflow-x: hidden;
+}
+
+.arq-ramirez-header, .header-item-contanier {
+  display: flex;
+  flex-direction: row;
+}
+
+.contacto-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.casas-titulos, .deco-titulo, .otros-proy-titulos, .nosotros-texto {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
 }
 
 /*H1 All Pages*/
@@ -157,6 +189,22 @@ body {
   word-spacing: 3px;
   text-transform: none;
   text-decoration: none;
+}
+
+.arq-ramirez-header, .header-item-contanier {
+  display: flex;
+  flex-direction: row;
+}
+
+.contacto-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.casas-titulos, .deco-titulo, .otros-proy-titulos, .nosotros-texto {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
 }
 
 .no-padding {
@@ -315,6 +363,22 @@ li > ul > li:hover > ul > li,
 li > ul > li:hover > ul > li {
   transform: translateX(0%) translateY(0%);
   opacity: 1;
+}
+
+.arq-ramirez-header, .header-item-contanier {
+  display: flex;
+  flex-direction: row;
+}
+
+.contacto-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.casas-titulos, .deco-titulo, .otros-proy-titulos, .nosotros-texto {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
 }
 
 #instagram-logo {

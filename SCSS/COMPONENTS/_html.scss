@@ -1,4 +1,6 @@
+@import '../BASE/mixins';
 @import '../BASE/variables';
+@import '../BASE/extends';
 
 html {
     font-size: $general-font-size;
