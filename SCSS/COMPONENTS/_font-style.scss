@@ -4,7 +4,6 @@
 
 /*H1 All Pages*/
 .titulo-white-style {
-    display: inline-block;
     @include font(28px, white, 300, 4px, 6px, uppercase, none);
 }
 .titulos {
