@@ -5,24 +5,24 @@
 /*H1 All Pages*/
 .titulo-white-style {
     display: inline-block;
-    @include font(28px, $white, 300, 4px, 6px, uppercase, none)
+    @include font(28px, white, 300, 4px, 6px, uppercase, none);
 }
 .titulos {
     @include boxmodel(1rem, 0rem);
-    @include font(1.5rem, $regular-grey, 300, 0.258rem, 0.358rem, uppercase, none)
+    @include font(1.5rem, #3E3636, 300, 0.258rem, 0.358rem, uppercase, none)
 }
 .formato-texto {
     @include boxmodel(1rem, 0rem);
-    @include font(1rem, $regular-grey, 300, 0.0625rem, 0.1875rem, none, none)
+    @include font(1rem, #3E3636, 300, 0.0625rem, 0.1875rem, none, none)
 }
 #copyright {
     display: inline-block;
     @include boxmodel(0.5rem, 0.5rem);
-    @include font(1rem, $white, 300, 0.0625rem, 0.1875rem, none, none)
+    @include font(1rem, white, 300, 0.0625rem, 0.1875rem, none, none)
 }
 .nosotros-texto-formato, .deco-texto, .home-texto {
     @include boxmodel(16px, 0px);
-    @include font(18px, $white, 300, 1px, 3px, none, none)
+    @include font(18px, white, 300, 1px, 3px, none, none)
 }
 
 

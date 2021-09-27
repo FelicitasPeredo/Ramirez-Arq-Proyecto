@@ -3,18 +3,15 @@
 @import '../BASE/extends';
 
 #casas-grid-item-1 {
-    background-color: $dark-grey;
-    @include flex(flex, row, flex-end, center, nowrap)
-}
-.casas-container {
-    @include boxmodel(0rem, 0rem)
+    background-color: #3E3636;
+    @include flex(flex, row, flex-end, center, wrap)
 }
 .bg-img-casas {
-    background-color: $dark-grey
+    background-color: #3E3636;
 }
 .casas-grid-item {
     @include boxmodel(0rem, 0rem);
-    @include flex(flex, row, flex-end, center, nowrap)
+    @include flex(flex, row, flex-end, center, wrap)
 }
 .casas-titulos {
     @extend %position-absolute-transition

@@ -1,7 +1,6 @@
 {
   "name": "desafio_14_git",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +14,6 @@
   "bugs": {
     "url": "https://github.com/FelicitasPeredo/Ramirez-Arq-Proyecto/issues"
   },
-  "homepage": "https://github.com/FelicitasPeredo/Ramirez-Arq-Proyecto#readme"
+  "homepage": "https://github.com/FelicitasPeredo/Ramirez-Arq-Proyecto#readme",
+  "description": ""
 }

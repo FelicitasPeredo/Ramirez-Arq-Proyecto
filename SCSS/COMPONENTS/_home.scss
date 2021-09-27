@@ -2,15 +2,17 @@
 @import '../BASE/variables';
 @import '../BASE/extends';
 
-#home-container {
+.home-container {
     background-image: url("https://i.ibb.co/0CHn3YK/20201105-113132.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment: fixed;
     width: 100%;
 }
-.home-article {
-    background-color: $dark-grey;
-    @include boxmodel(2rem, 0rem);
-    @include flex(flex, row, space-around, center, wrap)
+.home-grid .home-article {
+        background-color: #616161;
+        @include boxmodel(2rem, 0rem);
+        @include flex(flex, row, space-around, center, wrap)
 }
+
+

@@ -3,12 +3,11 @@
 @import '../BASE/extends';
 
 .arq-ramirez-header {
-    background-color: $dark-grey;
-    @extend %flex-row
+    background-color: #616161;
+    width: 100%;
 }
 .header-item-contanier {
-    flex-wrap: wrap-reverse;
-    @extend %flex-row
+    flex-wrap: wrap-reverse !important;
 }
 .marca-container {
     @include flex(flex, row, center, center, wrap)

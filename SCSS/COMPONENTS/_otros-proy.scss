@@ -3,7 +3,6 @@
 @import '../BASE/extends';
 
 .otros-proy-titulos-carouseles {
-    display: block;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -12,10 +11,10 @@
     margin: 1rem;
 }
 .otros-proy-container {
-    @include boxmodel(0px, 0px)
+    @include boxmodel(0px, 0px);
 }
 .otros-proy-container div div a {
-    background-color: $dark-grey;
+    background-color: #3E3636;
 }
 .otros-proy-grid-item {
     @include boxmodel(0px, 0px);

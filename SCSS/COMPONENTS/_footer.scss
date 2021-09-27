@@ -3,7 +3,7 @@
 @import '../BASE/extends';
 
 .arq-ramirez-footer {
-    background-color: $light-grey;
+    background-color: #BDBDBD;
     @include boxmodel(0.5rem, 0rem);
     @include flex(flex, row, center, center, nowrap)
 }
