@@ -10,7 +10,7 @@
     width: 100%;
 }
 .home-grid .home-article {
-        background-color: #616161;
+        background-color: #3E3636;
         @include boxmodel(2rem, 0rem);
         @include flex(flex, row, space-around, center, wrap)
 }

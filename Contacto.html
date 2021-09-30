@@ -85,29 +85,31 @@
     <!-- FORM -->
     <section class="form-container d-flex justify-content-center flex-wrap container">
         <h2 class="titulos">En que podemos ayudarte?</h2>
-        <form action="" class="formato-texto">
+        <form action="" class="formato-texto" id="formulario">
             <div class="form-nombre-apellido">
                 <div class="form-floating mb-3">
-                    <input type="email" class="form-control" id="floatingInput" placeholder="Nombre">
-                    <label for="floatingInput">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre y apellido" name="Nombre">
+                    <label for="nombre">Nombre y Apellido</label>
                 </div>
                 <div class="form-floating">
-                    <input type="password" class="form-control" id="floatingPassword" placeholder="Apellido">
-                    <label for="floatingPassword">Apellido</label>
+                    <input type="number" class="form-control" id="telefono" placeholder="Ingrese su numero de contacto" name="Telefono">
+                    <label for="telefono">Número de Contacto</label>
                 </div>
             </div>
             <div class="form-mail-mensaje">
                 <div class="form-floating mb-3">
-                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                    <label for="floatingInput">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com" name="Email">
+                    <label for="email">Email</label>
                 </div>
                 <div class="form-floating">
-                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"
-                        style="height: 100px"></textarea>
-                    <label for="floatingTextarea">Envienos su mensaje</label>
+                    <textarea class="form-control" placeholder="Envíenos su mensaje" id="mensaje"
+                        style="height: 100px" name="Mensaje"></textarea>
+                    <label for="mensaje">Envíenos su mensaje</label>
                 </div>
             </div>
-            <button type="button" class="btn formato-boton btn-lg">Enviar Mensaje</button>
+            <div>
+                <input type="submit" class="btn formato-boton btn-lg" value="Enviar Mensaje">
+            </div>
             <div class="formato-texto">
                 <p>
                     Envíenos sus consultas y pedidos llenando este formulario.
@@ -129,35 +131,18 @@
             </article>
             <article class="contacto-container col-12 col-md-6 p-5">
                 <h2 class="titulos">Contacto</h2>
-                <!-- Numero de telefono -->
+                <p class="formato-texto">
+                    Eugenia Ramirez
+                </p>
                 <p class="formato-texto">
                     +54 911 44004662
                 </p>
-                <!-- Email -->
                 <a href="mailto:eugenia.ramirez@fibertel.com.ar"
                     class="formato-texto">eugenia.ramirez@fibertel.com.ar</a>
                 <!-- Ubicacion -->
                 <p class="formato-texto">
                     Tigre – Pilar – Escobar
                 </p>
-                <!-- Links Redes Sociales -->
-                <nav id="redes-sociales-links">
-                    <a href="https://www.instagram.com/ramirez.arquitectura/"><img
-                            src="https://i.ibb.co/cNQV9Bp/instagram-logo.png" alt="instagram logo" class="logo"
-                            id="instagram-logo"></a>
-                    <a href="https://ar.linkedin.com/in/eugenia-ramirez-01483133"><img
-                            src="https://i.ibb.co/vP7mXDS/linkedin-logo.png" alt="linkedin logo" class="logo"
-                            id="linkedin-logo"></a>
-                    <a href="https://www.facebook.com/Ramirezarquitectura-1028882177162810/"><img
-                            src="https://i.ibb.co/DWqdrBb/facebook-logo.png" alt="facebook logo" class="logo"
-                            id="facebook-logo"></a>
-                    <a href="https://www.behance.net/ramirezarquitectura"><img
-                            src="https://i.ibb.co/Vq1Gr7J/behance-logo.png" alt="behance logo" class="logo"
-                            id="behance-logo"></a>
-                    <a href="https://ar.pinterest.com/RamirezArquitectura/"><img
-                            src="https://i.ibb.co/c1BDwSZ/pinterest-logo.png" alt="pinterest logo" class="logo"
-                            id="pinterest-logo"></a>
-                </nav>
             </article>
         </div>
     </section>
@@ -184,7 +169,12 @@
                     id="pinterest-logo"></a>
         </nav>
     </footer>
-    <!-- esto es para javascript de bootstrap -->
+    <!-- sweetalert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- javascript para el form -->
+    <script src="Sender/smtp.js"></script>
+    <script src="Sender/sender.js"></script>
+    <!-- javascript de bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
         integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous">
     </script>
