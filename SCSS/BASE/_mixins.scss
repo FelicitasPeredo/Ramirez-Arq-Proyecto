@@ -18,3 +18,8 @@
     padding: $padding;
     margin: $margin;
 }
+
+@mixin resize-image($width: 100%, $height: auto) {
+    width: $width;
+    height: $height;
+}

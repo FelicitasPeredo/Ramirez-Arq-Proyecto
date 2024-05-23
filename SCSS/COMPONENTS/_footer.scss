@@ -3,7 +3,7 @@
 @import '../BASE/extends';
 
 .arq-ramirez-footer {
-    background-color: #BDBDBD;
+    background-color: $dark-grey;
     @include boxmodel(0.5rem, 0rem);
     @include flex(flex, row, center, center, nowrap)
 }
@@ -12,5 +12,18 @@
     @include boxmodel(0.5rem, 0.5rem);
 }
 .logo {
-    @include boxmodel(0.2rem, 0.2rem);
+    @include boxmodel(0.1rem, 0.1rem);
+    @include resize-image(2vw, auto); 
+
+    @media (max-width: 1200px) {
+        @include resize-image(2.5vw, auto);
+    }
+    
+    @media (max-width: 768px) {
+        @include resize-image(3vw, auto);
+    }
+    
+    @media (max-width: 480px) {
+        @include resize-image(5vw, auto);
+    }
 }
