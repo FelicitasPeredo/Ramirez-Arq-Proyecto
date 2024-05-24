@@ -13,3 +13,7 @@
 .img-fondo {
     background-color: #3E3636;
 }
+
+.img-casas {
+    @include resize-image(100%, auto);
+}

@@ -24,4 +24,14 @@
     @include font(18px, white, 300, 1px, 3px, none, none)
 }
 
+.proyectos-title-font {
+    @include font(23px, $regular-grey, 300, 4px, 6px, uppercase, none);
+    margin: 0rem;
+}
+
+.proyectos-text-font {
+    @include font(22px, $regular-grey, 300, 4px, 6px, none, none);
+    margin: 0rem;
+}
+
 

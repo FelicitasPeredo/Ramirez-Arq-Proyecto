@@ -191,6 +191,28 @@ body {
   text-decoration: none;
 }
 
+.proyectos-title-font {
+  font-size: 23px;
+  color: #3E3636;
+  font-weight: 300;
+  letter-spacing: 4px;
+  word-spacing: 6px;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 0rem;
+}
+
+.proyectos-text-font {
+  font-size: 22px;
+  color: #3E3636;
+  font-weight: 300;
+  letter-spacing: 4px;
+  word-spacing: 6px;
+  text-transform: none;
+  text-decoration: none;
+  margin: 0rem;
+}
+
 .no-padding {
   padding: 0px !important;
 }
@@ -429,6 +451,11 @@ li > ul > li:hover > ul > li {
   background-color: #3E3636;
 }
 
+.img-casas {
+  width: 100%;
+  height: auto;
+}
+
 .contacto-container {
   display: flex;
   flex-direction: column;
@@ -610,6 +637,35 @@ li > ul > li:hover > ul > li {
   justify-content: flex-end;
   align-items: center;
   flex-wrap: wrap;
+}
+
+.proy-grid-item {
+  padding: 1rem;
+  margin: 0rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#proyectos-grid-item {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.no-padding-top {
+  padding: 1rem;
+  padding-top: 0rem;
+}
+
+.no-padding-bottom {
+  padding: 1rem;
+  padding-bottom: 0rem;
 }
 
 .contacto-container {

@@ -16,3 +16,23 @@
 .casas-titulos {
     @extend %position-absolute-transition
 }
+
+.proy-grid-item {
+    @include boxmodel(1rem, 0rem);
+    @include flex(flex, row, flex-end, center, wrap);
+}
+
+#proyectos-grid-item {
+    background-color: $white;
+    @include flex(flex, row, flex-end, center, wrap);
+}
+
+.no-padding-top {
+    padding: 1rem;
+    padding-top: 0rem;
+}
+
+.no-padding-bottom {
+    padding: 1rem;
+    padding-bottom:  0rem;
+}
