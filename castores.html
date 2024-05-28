@@ -41,7 +41,12 @@
 </head>
 
 <body>
-    <header class="arq-ramirez-header container-fluid">
+    <div class="d-flex justify-content-center" id="loading">
+        <div class="spinner-border text-secondary" role="status">
+          <span class="sr-only"></span>
+        </div>
+    </div>
+    <header class="arq-ramirez-header container-fluid" name="content">
         <div class="header-item-container row d-flex flex-wrap-reverse">
             <div class="nav-container col-md-3 px-1 px-md-5 d-flex justify-content-start justify-content-md-center">
                 <nav>
@@ -75,7 +80,7 @@
             </div>
         </div>
     </header>
-    <main class="container-fluid">
+    <main class="container-fluid" name="content">
         <section class="row">
             <img src="https://lh3.googleusercontent.com/pw/AP1GczMWa_tmfpmVCWqJB338ng_G3Gq-bN2o3-Qi-cWX9pNfgq4oZzLbODd-h1fAQJQxrN_uTTS6TDJuTFvjfIsRqRD0Q_91PBa6_UWequrhR9qI49EW2oo6LIpyDVmd66GiMjZADpJsDAlioTRAimLsCrIn=w1920-h863-s-no-gm?authuser=0" id="img-portada" class="casas-grid-item">
         </section>
@@ -123,7 +128,7 @@
             </div>
         </section>
     </main>
-    <footer class="arq-ramirez-footer container-fluid">
+    <footer class="arq-ramirez-footer container-fluid" name="content">
         <!-- Copyright -->
         <p id="copyright">
             © Copyright 2024 Ramirez Arquitectura
@@ -151,6 +156,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
         integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous">
     </script>
+    <script src="script.js"></script>
 </body>
 
 </html>

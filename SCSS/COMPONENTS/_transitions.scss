@@ -35,3 +35,19 @@
 .casas-grid-item:hover .casas-titulos, .nosotros-grid-item:hover .nosotros-texto, .deco-grid-item:hover .deco-titulo, .otros-proy-grid-item:hover .otros-proy-titulos {
     opacity: 1;
 }
+
+#loading {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: #000;
+    z-index: 9999;
+}
+#content {
+    display: none; /* Hide content initially */
+}

@@ -16,7 +16,7 @@
     @include resize-image(2vw, auto); 
 
     @media (max-width: 1200px) {
-        @include resize-image(2.5vw, auto);
+        @include resize-image(1.5vw, auto);
     }
     
     @media (max-width: 768px) {

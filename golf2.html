@@ -41,7 +41,12 @@
 </head>
 
 <body>
-    <header class="arq-ramirez-header container-fluid">
+    <div class="d-flex justify-content-center" id="loading">
+        <div class="spinner-border text-secondary" role="status">
+          <span class="sr-only"></span>
+        </div>
+    </div>
+    <header class="arq-ramirez-header container-fluid" name="content">
         <div class="header-item-container row d-flex flex-wrap-reverse">
             <div class="nav-container col-md-3 px-1 px-md-5 d-flex justify-content-start justify-content-md-center">
                 <nav>
@@ -75,7 +80,7 @@
             </div>
         </div>
     </header>
-    <main class="container-fluid">
+    <main class="container-fluid" name="content">
         <section class="row">
             <img src="https://lh3.googleusercontent.com/pw/AP1GczNcwNU9q8t1lFan7aoDZr4vANZgKwimzB40CA0m2NnfWr6xKExzRPeX1GAGAjDkIoHVwZHQs0OHsPufdw_9HYFOeQFCn7kWmkHi2RiZIvmT6-MNhnWp_2z5w_ebEwydET4lyPo-M5_ESVfN22xLWiTC=w1544-h869-s-no-gm?authuser=0" id="img-portada" class="casas-grid-item">
         </section>
@@ -108,6 +113,11 @@
         <section class="row">
             <div class="proy-grid-item col-lg-4 col-md-12 col-sm-12 col-xs-12">
                 <div>
+                    <img src="https://lh3.googleusercontent.com/pw/AP1GczOECKHmGTkhlSazF8kgKdqoyxwrBR973CTzly0VZ4Z8Ou2rMk_Klt5lYa2kJByNdbry4kF4K6_i_bItPSIQNrmZiwvcbT2NiNCaW4MaaOBa_bIJ0nlJXoXyUQPFjLOjAQ4A1BFf7ta51ysY2W79RK58=w868-h869-s-no-gm?authuser=0" class="img-casas">
+                </div>
+            </div>
+            <div class="proy-grid-item col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                <div>
                     <img src="https://lh3.googleusercontent.com/pw/AP1GczO1zDwwjgpk47TO2aAoI6RuRY2N6Fgb5YiyFGRFdR3IJhNoLh9cXwa1u0yIKmwI7kSX7HSzVKU6IxnvDdyDFQypranUQsFvpka6YBFo_M6sTsaH5KLYyqtdcLTsjOl-8KTUnSw2YpueI0-xzmk3-iXT=w869-h869-s-no-gm?authuser=0" class="img-casas">
                 </div>
             </div>
@@ -116,14 +126,9 @@
                     <img src="https://lh3.googleusercontent.com/pw/AP1GczP7yIAarqFbsGknHKRDIITuwKqGMAtyBxLt_uAalgvLra3ArW9H9WS9teT2roo8rS1Lqc8e6ufDTDMs21VXbjc6aUZunCONQYETT9Re5Tk_svV88KQqdAsQwu393PlFk4g8E0c4oNHTcB__js3_Kyok=w868-h869-s-no-gm?authuser=0" class="img-casas">
                 </div>
             </div>
-            <div class="proy-grid-item col-lg-4 col-md-12 col-sm-12 col-xs-12">
-                <div>
-                    <img src="https://lh3.googleusercontent.com/pw/AP1GczOECKHmGTkhlSazF8kgKdqoyxwrBR973CTzly0VZ4Z8Ou2rMk_Klt5lYa2kJByNdbry4kF4K6_i_bItPSIQNrmZiwvcbT2NiNCaW4MaaOBa_bIJ0nlJXoXyUQPFjLOjAQ4A1BFf7ta51ysY2W79RK58=w868-h869-s-no-gm?authuser=0" class="img-casas">
-                </div>
-            </div>
         </section>
     </main>
-    <footer class="arq-ramirez-footer container-fluid">
+    <footer class="arq-ramirez-footer container-fluid" name="content">
         <!-- Copyright -->
         <p id="copyright">
             © Copyright 2024 Ramirez Arquitectura
@@ -151,6 +156,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
         integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous">
     </script>
+    <script src="script.js"></script>
 </body>
 
 </html>
